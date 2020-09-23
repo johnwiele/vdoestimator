@@ -55,6 +55,8 @@ all: third $(PROGS)
 
 clean:
 	$(RM) $(PROGS) $(OBJECTS)
+
+dist-clean: clean
 	$(RM) -r $(BUILDROOT)
 
 download:
